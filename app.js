@@ -75,7 +75,7 @@ let tieScore = parseInt(0);
 
 
 //Creates a game function for n amount of loops
-game = (playerChoice, computerChoice) => {
+game = () => {
     for (i = 0; i < 5; i++) {
         let playerChoice = prompt('What is  your choice? rock, paper or scissors').toLowerCase();
         const computerChoice = getComputerChoice();
